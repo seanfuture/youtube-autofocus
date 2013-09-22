@@ -1,0 +1,18 @@
+{
+	"name": "YouTube AutoFocus",
+	"version": "0.1",
+	"manifest_version" : 2,
+	"description": "Focuses the Flash player when loading a YouTube video page",
+	"content_scripts": [
+	{
+		"matches": ["http://*.youtube.com/*"],
+		"js": ["lib/jquery-1.8.3.min.js", "scripts/main.js"],
+		"run_at": "document_idle"
+	}
+	],
+	"icons": {
+		"16": "icons/16.png",
+		"48": "icons/48.png",
+		"128": "icons/128.png"
+	}
+}
