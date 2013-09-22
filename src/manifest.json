@@ -6,14 +6,14 @@
 	"content_scripts": [
 	{
 		"matches": ["http://*.youtube.com/*"],
-		"js": ["scripts/main.js"],
+		"js": ["main.js"],
 		"run_at": "document_idle"
 	}
 	],
 	"icons": {
-		"16": "icons/16.png",
-		"48": "icons/48.png",
-		"128": "icons/128.png"
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
 	},
 	"homepage_url": "https://github.com/slikts/youtube-autofocus"
 }
