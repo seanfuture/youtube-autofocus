@@ -1,6 +1,6 @@
 {
 	"name": "AutoFocus for YouTube",
-	"version": "0.2",
+	"version": "0.3",
 	"manifest_version" : 2,
 	"description": "Focuses the Flash video player when loading a YouTube video page",
 	"content_scripts": [
