@@ -1,5 +1,5 @@
 {
-	"name": "YouTube AutoFocus",
+	"name": "AutoFocus for YouTube",
 	"version": "0.1",
 	"manifest_version" : 2,
 	"description": "Focuses the Flash player when loading a YouTube video page",
