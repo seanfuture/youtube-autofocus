@@ -1,11 +1,11 @@
 {
-	"name": "AutoFocus for YouTube",
-	"version": "0.3",
+	"name": "YouTube Auto Focus",
+	"version": "0.5",
 	"manifest_version" : 2,
-	"description": "Focuses the Flash video player when loading a YouTube video page",
-	"content_scripts": [
+	"description": "Automatically focuses YouTube's HTML5 video player for instant keyboard navigation",
+    "content_scripts": [
 	{
-		"matches": ["http://*.youtube.com/*"],
+		"matches": ["http://*.youtube.com/*", "https://*.youtube.com/*"],
 		"js": ["main.js"],
 		"run_at": "document_idle"
 	}
@@ -15,5 +15,5 @@
 		"48": "icon48.png",
 		"128": "icon128.png"
 	},
-	"homepage_url": "https://github.com/slikts/youtube-autofocus"
+	"homepage_url": "https://github.com/seanfuture/youtube-autofocus"
 }

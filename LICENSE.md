@@ -1,6 +1,6 @@
 ## MIT License
 
-Copyright 2013 Reinis Ivanovs <dabas@untu.ms>
+Copyright 2013 Reinis Ivanovs <dabas@untu.ms>, 2014 Sean Future <http://seanfuture.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
